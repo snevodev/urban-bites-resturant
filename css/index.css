@@ -272,21 +272,20 @@ section {
         transform: translateY(0);
     }
 }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background: #000;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        width: 200px;
-        padding: 20px;
-        width: 100%;
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background: #000;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    width: 100%;
     }
 
-    .nav-links.active {
-        display: flex;
+.nav-links.active {
+    display: flex;
     }
 }
 
